@@ -1,0 +1,97 @@
+Package: libraspberrypi-bin
+Source: raspberrypi-firmware-nokernel
+Version: 1.20140908-1~nokernel1
+Architecture: armhf
+Maintainer: Peter Michael Green <plugwash@raspbian.org>
+Installed-Size: 605
+Depends: libraspberrypi0 (= 1.20140908-1~nokernel1)
+Homepage: https://github.com/raspberrypi/firmware
+Priority: extra
+Section: firmware/misc
+Filename: pool/firmware/r/raspberrypi-firmware-nokernel/libraspberrypi-bin_1.20140908-1~nokernel1_armhf.deb
+Size: 245392
+SHA256: 76ef06c3083c46e1f6d0879a632bf653dfea46fbfc0961ba102866d87385e310
+SHA1: dbdf94ef940e025d0f9aa73ebec448fe9f941b0d
+MD5sum: 8f238ddb1ea8998ac63fea2074925dc1
+Description: Miscellaneous Raspberry Pi utilities
+ This package contains various utilities for interacting with the Raspberry
+ Pi's VideoCore IV.
+
+Package: libraspberrypi-dev
+Source: raspberrypi-firmware-nokernel
+Version: 1.20140908-1~nokernel1
+Architecture: armhf
+Maintainer: Peter Michael Green <plugwash@raspbian.org>
+Installed-Size: 3232
+Depends: libraspberrypi0 (= 1.20140908-1~nokernel1)
+Homepage: https://github.com/raspberrypi/firmware
+Priority: extra
+Section: firmware/libdevel
+Filename: pool/firmware/r/raspberrypi-firmware-nokernel/libraspberrypi-dev_1.20140908-1~nokernel1_armhf.deb
+Size: 763350
+SHA256: bde8e610b946e3e7e25617af8d6c16094398963c692fca5f02e7c7982c7b9955
+SHA1: 8c4d22f1b15cb11235b9a52f095836140cd581e9
+MD5sum: f9c09d3047b42830087ac8db945d30de
+Description: EGL/GLES/OpenVG/etc. libraries for the Raspberry Pi's VideoCore IV (headers)
+ This package contains headers and other development files for implementations
+ of EGL, OpenGL ES, OpenVG, OpenWF Composition, and others for the Raspberry
+ Pi's VideoCore IV multimedia processor.
+
+Package: libraspberrypi-doc
+Source: raspberrypi-firmware-nokernel
+Version: 1.20140908-1~nokernel1
+Architecture: armhf
+Maintainer: Peter Michael Green <plugwash@raspbian.org>
+Installed-Size: 32744
+Depends: libraspberrypi0 (= 1.20140908-1~nokernel1)
+Homepage: https://github.com/raspberrypi/firmware
+Priority: extra
+Section: firmware/libdevel
+Filename: pool/firmware/r/raspberrypi-firmware-nokernel/libraspberrypi-doc_1.20140908-1~nokernel1_armhf.deb
+Size: 31522142
+SHA256: 346eabb79cc3b39f41489d53d73f2faa8e66ed7f74bd0d04a9a1d4595826c34d
+SHA1: c5aca6322ccca6d3c663a6e4194ae8f5b4f6554d
+MD5sum: 8a44c1cdcf565c9de7b65c5c1f6f1adf
+Description: EGL/GLES/OpenVG/etc. libraries for the Raspberry Pi's VideoCore IV (headers)
+ This package contains headers, example code, and other development files for
+ implementations of EGL, OpenGL ES, OpenVG, OpenWF Composition, and others for
+ the Raspberry Pi's VideoCore IV multimedia processor.
+
+Package: libraspberrypi0
+Source: raspberrypi-firmware-nokernel
+Version: 1.20140908-1~nokernel1
+Architecture: armhf
+Maintainer: Peter Michael Green <plugwash@raspbian.org>
+Installed-Size: 1100
+Depends: raspberrypi-bootloader-nokernel (= 1.20140908-1~nokernel1)
+Homepage: https://github.com/raspberrypi/firmware
+Priority: extra
+Section: firmware/libs
+Filename: pool/firmware/r/raspberrypi-firmware-nokernel/libraspberrypi0_1.20140908-1~nokernel1_armhf.deb
+Size: 429964
+SHA256: 62ad2bd1686a665aa31e3112c11893bb71d9df3add461295ad4c6cbe376bdb55
+SHA1: 5cdce5a42f10923c952864cf1296d4ce5dbd4d0c
+MD5sum: d9a9ba33a8801451f8558a6e40540a52
+Description: EGL/GLES/OpenVG/etc. libraries for the Raspberry Pi's VideoCore IV
+ This package contains implementations of EGL, OpenGL ES, OpenVG, OpenWF
+ Composition, and others for the Raspberry Pi's VideoCore IV multimedia
+ processor.
+
+Package: raspberrypi-bootloader-nokernel
+Source: raspberrypi-firmware-nokernel
+Version: 1.20140908-1~nokernel1
+Architecture: armhf
+Maintainer: Peter Michael Green <plugwash@raspbian.org>
+Installed-Size: 6631
+Conflicts: raspberrypi-bootloader
+Homepage: https://github.com/raspberrypi/firmware
+Priority: extra
+Section: firmware/admin
+Filename: pool/firmware/r/raspberrypi-firmware-nokernel/raspberrypi-bootloader-nokernel_1.20140908-1~nokernel1_armhf.deb
+Size: 3904244
+SHA256: ca3bb486fe8313917bbdaaeca4b4e35529d4b2a86baaa8dc8ebc9ccfc5614561
+SHA1: 9c2f0c8d48a41d0bb7d858f1d64544e00f1266a7
+MD5sum: 538e41ac8ab564f618b504de6cc0769b
+Description: Raspberry Pi bootloader
+ This package contains the Raspberry Pi bootloader.
+

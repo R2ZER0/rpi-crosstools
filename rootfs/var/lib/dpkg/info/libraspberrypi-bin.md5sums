@@ -1,0 +1,14 @@
+028a36d73227edc2c1c41eff0eba3caf  opt/vc/bin/edidparser
+755cb287d4a9d83e0cedcfd8f263d269  opt/vc/bin/mmal_vc_diag
+99de11d8565b7cd8854fc445216d20fa  opt/vc/bin/raspistill
+77d6b97c472737be446af2cb8acac8d1  opt/vc/bin/raspivid
+e16538fad9e1f400ff1c06759573151e  opt/vc/bin/raspiyuv
+a90ecda30ee5e1cbe78a5c8f39751219  opt/vc/bin/tvservice
+b79eab5055606ca3a64484db73331892  opt/vc/bin/vcdbg
+07c6bd7351d2d8bb4f0db12b82974a6a  opt/vc/bin/vcgencmd
+5b938be5682d68c9ed6d2f51ed04ffcd  opt/vc/bin/vchiq_test
+2f9fe51bcc2479030b6724e1f5afd8c5  opt/vc/bin/vcsmem
+09fb5f605da0ff74c44984bfcdf8b6f9  opt/vc/sbin/vcfiled
+86e53f5f5909ee66900418028de11780  usr/share/doc/libraspberrypi-bin/LICENCE
+6e2efe360b2795ed97961589259ce02f  usr/share/doc/libraspberrypi-bin/changelog.Debian.gz
+8c3b9b8d61850c4955d61dfc17531a25  usr/share/doc/libraspberrypi-bin/copyright

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/kioskd.h
+
+/root/kioskd-build/src/main.c
+stdlib.h
+-
+getopt.h
+-
+unistd.h
+-
+stdio.h
+-
+kioskd.h
+/root/kioskd-build/src/kioskd.h
+

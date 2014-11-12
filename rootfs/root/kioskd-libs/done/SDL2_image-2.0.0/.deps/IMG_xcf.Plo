@@ -1,0 +1,296 @@
+IMG_xcf.lo: IMG_xcf.c /usr/include/stdio.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/bits/predefs.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /opt/xgcc/lib/gcc/arm-linux-gnueabihf/4.8.3/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /opt/xgcc/lib/gcc/arm-linux-gnueabihf/4.8.3/include/stdarg.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h /usr/include/ctype.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h /usr/include/xlocale.h \
+ /usr/include/string.h /usr/include/stdlib.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/arm-linux-gnueabihf/sys/types.h /usr/include/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h /opt/kioskd/include/SDL2/SDL_endian.h \
+ /opt/kioskd/include/SDL2/SDL_stdinc.h \
+ /opt/kioskd/include/SDL2/SDL_config.h \
+ /opt/kioskd/include/SDL2/SDL_platform.h \
+ /opt/kioskd/include/SDL2/begin_code.h \
+ /opt/kioskd/include/SDL2/close_code.h /usr/include/strings.h \
+ /usr/include/inttypes.h \
+ /opt/xgcc/lib/gcc/arm-linux-gnueabihf/4.8.3/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/math.h /usr/include/arm-linux-gnueabihf/bits/huge_val.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_valf.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_vall.h \
+ /usr/include/arm-linux-gnueabihf/bits/inf.h \
+ /usr/include/arm-linux-gnueabihf/bits/nan.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathdef.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathcalls.h /usr/include/iconv.h \
+ SDL_image.h /opt/kioskd/include/SDL2/SDL.h \
+ /opt/kioskd/include/SDL2/SDL_main.h \
+ /opt/kioskd/include/SDL2/SDL_assert.h /usr/include/signal.h \
+ /usr/include/arm-linux-gnueabihf/bits/signum.h \
+ /usr/include/arm-linux-gnueabihf/bits/siginfo.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigaction.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigcontext.h \
+ /usr/include/arm-linux-gnueabihf/asm/sigcontext.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigstack.h \
+ /usr/include/arm-linux-gnueabihf/sys/ucontext.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigthread.h \
+ /opt/kioskd/include/SDL2/SDL_atomic.h \
+ /opt/kioskd/include/SDL2/SDL_audio.h \
+ /opt/kioskd/include/SDL2/SDL_error.h \
+ /opt/kioskd/include/SDL2/SDL_endian.h \
+ /opt/kioskd/include/SDL2/SDL_mutex.h \
+ /opt/kioskd/include/SDL2/SDL_thread.h \
+ /opt/kioskd/include/SDL2/SDL_rwops.h \
+ /opt/kioskd/include/SDL2/SDL_clipboard.h \
+ /opt/kioskd/include/SDL2/SDL_cpuinfo.h \
+ /opt/kioskd/include/SDL2/SDL_events.h \
+ /opt/kioskd/include/SDL2/SDL_video.h \
+ /opt/kioskd/include/SDL2/SDL_pixels.h \
+ /opt/kioskd/include/SDL2/SDL_rect.h \
+ /opt/kioskd/include/SDL2/SDL_surface.h \
+ /opt/kioskd/include/SDL2/SDL_blendmode.h \
+ /opt/kioskd/include/SDL2/SDL_keyboard.h \
+ /opt/kioskd/include/SDL2/SDL_keycode.h \
+ /opt/kioskd/include/SDL2/SDL_scancode.h \
+ /opt/kioskd/include/SDL2/SDL_mouse.h \
+ /opt/kioskd/include/SDL2/SDL_joystick.h \
+ /opt/kioskd/include/SDL2/SDL_gamecontroller.h \
+ /opt/kioskd/include/SDL2/SDL_quit.h \
+ /opt/kioskd/include/SDL2/SDL_gesture.h \
+ /opt/kioskd/include/SDL2/SDL_touch.h \
+ /opt/kioskd/include/SDL2/SDL_filesystem.h \
+ /opt/kioskd/include/SDL2/SDL_haptic.h \
+ /opt/kioskd/include/SDL2/SDL_hints.h \
+ /opt/kioskd/include/SDL2/SDL_loadso.h /opt/kioskd/include/SDL2/SDL_log.h \
+ /opt/kioskd/include/SDL2/SDL_messagebox.h \
+ /opt/kioskd/include/SDL2/SDL_power.h \
+ /opt/kioskd/include/SDL2/SDL_render.h \
+ /opt/kioskd/include/SDL2/SDL_system.h \
+ /opt/kioskd/include/SDL2/SDL_timer.h \
+ /opt/kioskd/include/SDL2/SDL_version.h \
+ /opt/kioskd/include/SDL2/SDL_version.h \
+ /opt/kioskd/include/SDL2/begin_code.h \
+ /opt/kioskd/include/SDL2/close_code.h
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/arm-linux-gnueabihf/bits/predefs.h:
+
+/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
+
+/opt/xgcc/lib/gcc/arm-linux-gnueabihf/4.8.3/include/stddef.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types.h:
+
+/usr/include/arm-linux-gnueabihf/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/opt/xgcc/lib/gcc/arm-linux-gnueabihf/4.8.3/include/stdarg.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdio_lim.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
+
+/usr/include/ctype.h:
+
+/usr/include/endian.h:
+
+/usr/include/arm-linux-gnueabihf/bits/endian.h:
+
+/usr/include/arm-linux-gnueabihf/bits/byteswap.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/string.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/arm-linux-gnueabihf/bits/waitflags.h:
+
+/usr/include/arm-linux-gnueabihf/bits/waitstatus.h:
+
+/usr/include/arm-linux-gnueabihf/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/arm-linux-gnueabihf/sys/select.h:
+
+/usr/include/arm-linux-gnueabihf/bits/select.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sigset.h:
+
+/usr/include/arm-linux-gnueabihf/bits/time.h:
+
+/usr/include/arm-linux-gnueabihf/sys/sysmacros.h:
+
+/usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/opt/kioskd/include/SDL2/SDL_endian.h:
+
+/opt/kioskd/include/SDL2/SDL_stdinc.h:
+
+/opt/kioskd/include/SDL2/SDL_config.h:
+
+/opt/kioskd/include/SDL2/SDL_platform.h:
+
+/opt/kioskd/include/SDL2/begin_code.h:
+
+/opt/kioskd/include/SDL2/close_code.h:
+
+/usr/include/strings.h:
+
+/usr/include/inttypes.h:
+
+/opt/xgcc/lib/gcc/arm-linux-gnueabihf/4.8.3/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wchar.h:
+
+/usr/include/math.h:
+
+/usr/include/arm-linux-gnueabihf/bits/huge_val.h:
+
+/usr/include/arm-linux-gnueabihf/bits/huge_valf.h:
+
+/usr/include/arm-linux-gnueabihf/bits/huge_vall.h:
+
+/usr/include/arm-linux-gnueabihf/bits/inf.h:
+
+/usr/include/arm-linux-gnueabihf/bits/nan.h:
+
+/usr/include/arm-linux-gnueabihf/bits/mathdef.h:
+
+/usr/include/arm-linux-gnueabihf/bits/mathcalls.h:
+
+/usr/include/iconv.h:
+
+SDL_image.h:
+
+/opt/kioskd/include/SDL2/SDL.h:
+
+/opt/kioskd/include/SDL2/SDL_main.h:
+
+/opt/kioskd/include/SDL2/SDL_assert.h:
+
+/usr/include/signal.h:
+
+/usr/include/arm-linux-gnueabihf/bits/signum.h:
+
+/usr/include/arm-linux-gnueabihf/bits/siginfo.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sigaction.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sigcontext.h:
+
+/usr/include/arm-linux-gnueabihf/asm/sigcontext.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sigstack.h:
+
+/usr/include/arm-linux-gnueabihf/sys/ucontext.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sigthread.h:
+
+/opt/kioskd/include/SDL2/SDL_atomic.h:
+
+/opt/kioskd/include/SDL2/SDL_audio.h:
+
+/opt/kioskd/include/SDL2/SDL_error.h:
+
+/opt/kioskd/include/SDL2/SDL_endian.h:
+
+/opt/kioskd/include/SDL2/SDL_mutex.h:
+
+/opt/kioskd/include/SDL2/SDL_thread.h:
+
+/opt/kioskd/include/SDL2/SDL_rwops.h:
+
+/opt/kioskd/include/SDL2/SDL_clipboard.h:
+
+/opt/kioskd/include/SDL2/SDL_cpuinfo.h:
+
+/opt/kioskd/include/SDL2/SDL_events.h:
+
+/opt/kioskd/include/SDL2/SDL_video.h:
+
+/opt/kioskd/include/SDL2/SDL_pixels.h:
+
+/opt/kioskd/include/SDL2/SDL_rect.h:
+
+/opt/kioskd/include/SDL2/SDL_surface.h:
+
+/opt/kioskd/include/SDL2/SDL_blendmode.h:
+
+/opt/kioskd/include/SDL2/SDL_keyboard.h:
+
+/opt/kioskd/include/SDL2/SDL_keycode.h:
+
+/opt/kioskd/include/SDL2/SDL_scancode.h:
+
+/opt/kioskd/include/SDL2/SDL_mouse.h:
+
+/opt/kioskd/include/SDL2/SDL_joystick.h:
+
+/opt/kioskd/include/SDL2/SDL_gamecontroller.h:
+
+/opt/kioskd/include/SDL2/SDL_quit.h:
+
+/opt/kioskd/include/SDL2/SDL_gesture.h:
+
+/opt/kioskd/include/SDL2/SDL_touch.h:
+
+/opt/kioskd/include/SDL2/SDL_filesystem.h:
+
+/opt/kioskd/include/SDL2/SDL_haptic.h:
+
+/opt/kioskd/include/SDL2/SDL_hints.h:
+
+/opt/kioskd/include/SDL2/SDL_loadso.h:
+
+/opt/kioskd/include/SDL2/SDL_log.h:
+
+/opt/kioskd/include/SDL2/SDL_messagebox.h:
+
+/opt/kioskd/include/SDL2/SDL_power.h:
+
+/opt/kioskd/include/SDL2/SDL_render.h:
+
+/opt/kioskd/include/SDL2/SDL_system.h:
+
+/opt/kioskd/include/SDL2/SDL_timer.h:
+
+/opt/kioskd/include/SDL2/SDL_version.h:
+
+/opt/kioskd/include/SDL2/SDL_version.h:
+
+/opt/kioskd/include/SDL2/begin_code.h:
+
+/opt/kioskd/include/SDL2/close_code.h:

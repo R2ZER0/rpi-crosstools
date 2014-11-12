@@ -1,0 +1,24 @@
+Package: ssh-regen-startup
+Format: 3.0 (native)
+Binary: ssh-regen-startup
+Architecture: all
+Version: 0.1
+Maintainer: root <root@raspbian.org>
+Homepage: <insert the upstream URL, if relevant>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 8.0.0)
+Package-List: 
+ ssh-regen-startup deb rpi/unknown extra
+Priority: extra
+Section: rpi/unknown
+Directory: pool/rpi/s/ssh-regen-startup
+Files: 
+ d8937787be43ee44f712d834c70a9cfd 595 ssh-regen-startup_0.1.dsc
+ 767e13f3d6a10b555343d600a1f006b8 3348 ssh-regen-startup_0.1.tar.gz
+Checksums-Sha1: 
+ d08b8d71f7f3c55ed7d6f897f6df3a28ef335288 595 ssh-regen-startup_0.1.dsc
+ ea59db8fb402b5d9514c58f0b388fc2de0a84468 3348 ssh-regen-startup_0.1.tar.gz
+Checksums-Sha256: 
+ 62979fea51462acc0c6e02bb7d8307870f2549de411f57e92b1a78f29c1209a9 595 ssh-regen-startup_0.1.dsc
+ a04d2e644e736d99e38cbc8448fb656f9f1e7483682560cd63677c449f43e7da 3348 ssh-regen-startup_0.1.tar.gz
+

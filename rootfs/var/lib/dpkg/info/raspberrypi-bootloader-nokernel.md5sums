@@ -1,0 +1,9 @@
+26f94012c5cbee79ecc95fe18ea58936  boot/bootcode.bin
+7593d8a99a442b93f53df838fa8c8b05  boot/fixup.dat
+d95f367936e42eac8054bf534cd42f1a  boot/fixup_cd.dat
+2a9ebc950d69d2fdd624d0c12c62c14f  boot/fixup_x.dat
+a90585aad41487f1f43aa69f2f43c242  boot/start.elf
+8cc5dafa4fd31fbf8a930481cb2f8f96  boot/start_cd.elf
+409da8f4ad1568da6bec18c1aa884aed  boot/start_x.elf
+6e2efe360b2795ed97961589259ce02f  usr/share/doc/raspberrypi-bootloader-nokernel/changelog.Debian.gz
+8c3b9b8d61850c4955d61dfc17531a25  usr/share/doc/raspberrypi-bootloader-nokernel/copyright

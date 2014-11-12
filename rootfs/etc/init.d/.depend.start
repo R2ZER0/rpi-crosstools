@@ -1,0 +1,7 @@
+TARGETS = rsyslog killprocs motd bootlogs sudo single cron plymouth rc.local rmnologin
+INTERACTIVE =
+single: killprocs motd bootlogs
+cron: rsyslog
+plymouth: rsyslog motd bootlogs cron sudo
+rc.local: rsyslog motd bootlogs cron sudo
+rmnologin: sudo rsyslog motd bootlogs cron

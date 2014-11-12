@@ -1,0 +1,45 @@
+#!/bin/bash
+
+COMMAND="$@"
+
+realpath () {
+  [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
+}
+
+RPI_XTOOLS="$(dirname "$(realpath "$0")")/..";
+
+RPI_XGCC="$RPI_XTOOLS/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64"
+RPI_ROOTFS="$RPI_XTOOLS/rootfs"
+
+QEMU="$RPI_XTOOLS/qemu-2.1.2/bin/qemu-arm -cpu arm1176"
+
+read -d '' QEMU_SET_ENV_M <<"EOC"
+HOME=/root,
+LC_ALL=C,
+CC=/opt/xgcc/bin/arm-linux-gnueabihf-gcc,
+CXX=/opt/xgcc/bin/arm-linux-gnueabihf-g++,
+CPP=/opt/xgcc/bin/arm-linux-gnueabihf-cpp,
+CFLAGS=-I/opt/kioskd/include -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux --sysroot=/,
+CPPFLAGS=-I/opt/kioskd/include -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux --sysroot=/,
+LDFLAGS=-L/opt/kioskd/lib -L/opt/vc/lib  -L/usr/lib/arm-linux-gnueabihf --sysroot=/,
+PKG_CONFIG_PATH=/opt/kioskd/lib/pkgconfig:/usr/lib/pkgconfig,
+LD_RUN_PATH=/opt/kioskd/lib:/opt/vc/lib,
+LD_LIBRARY_PATH=/opt/kioskd/lib:/opt/vc/lib
+EOC
+
+QEMU_SET_ENV=`echo "$QEMU_SET_ENV_M" | tr -d '\n'`
+export QEMU_SET_ENV
+
+QEMU_UNSET_ENV="SSH_AGENT_PID,GPG_AGENT_INFO"
+
+# echo $QEMU
+# echo "$QEMU_SET_ENV"
+
+#$RPI_XTOOLS/bin/proot -r $RPI_ROOTFS -q "$RPI_XTOOLS/qemu-2.1.2/bin/qemu-arm" -0 \
+
+$RPI_XTOOLS/bin/proot -r $RPI_ROOTFS -q "$QEMU" -0 \
+-w /host-rootfs$(pwd) \
+-b /proc -b /sys -b /dev -b /tmp \
+-b /etc/host.conf -b /etc/hosts -b /etc/nsswitch.conf \
+-b $RPI_XGCC:/opt/xgcc \
+$COMMAND

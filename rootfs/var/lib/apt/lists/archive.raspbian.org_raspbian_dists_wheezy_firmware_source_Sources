@@ -1,0 +1,28 @@
+Package: raspberrypi-firmware-nokernel
+Format: 1.0
+Binary: libraspberrypi0, libraspberrypi-dev, libraspberrypi-doc, libraspberrypi-bin, raspberrypi-bootloader-nokernel
+Architecture: armel armhf
+Version: 1.20140908-1~nokernel1
+Maintainer: Peter Michael Green <plugwash@raspbian.org>
+Homepage: https://github.com/raspberrypi/firmware
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 8.0.0), quilt
+Package-List: 
+ libraspberrypi-bin deb firmware/misc extra
+ libraspberrypi-dev deb firmware/libdevel extra
+ libraspberrypi-doc deb firmware/libdevel extra
+ libraspberrypi0 deb firmware/libs extra
+ raspberrypi-bootloader-nokernel deb firmware/admin extra
+Priority: extra
+Section: firmware/libs
+Directory: pool/firmware/r/raspberrypi-firmware-nokernel
+Files: 
+ 339efe80d7a91646528c3886d1af7d33 1049 raspberrypi-firmware-nokernel_1.20140908-1~nokernel1.dsc
+ a3ed7932fd1fcb37ccf50f003636b44e 102229908 raspberrypi-firmware-nokernel_1.20140908-1~nokernel1.tar.gz
+Checksums-Sha1: 
+ e3eb947c6a8ce55f0ded59c4f6fcc8b51e9de067 1049 raspberrypi-firmware-nokernel_1.20140908-1~nokernel1.dsc
+ f739fbf10aabe01ddae38bb9be523c65b4e11a8a 102229908 raspberrypi-firmware-nokernel_1.20140908-1~nokernel1.tar.gz
+Checksums-Sha256: 
+ 4dcadf8e3a1f377a379a07567b525fb0cc981ff002a5e6c5bc526ee1af4cb62a 1049 raspberrypi-firmware-nokernel_1.20140908-1~nokernel1.dsc
+ ac924ac9ccc3085120b6f705b86de0f4ccde0bd2da8e04be7395a68a2568b7ef 102229908 raspberrypi-firmware-nokernel_1.20140908-1~nokernel1.tar.gz
+

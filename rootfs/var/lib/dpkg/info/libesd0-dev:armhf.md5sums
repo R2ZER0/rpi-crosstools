@@ -1,0 +1,6 @@
+543708f5b9a951680c76fbc6ded7d900  usr/bin/esd-config
+f0dd5c4bb100f01fb9731307c75aca1f  usr/include/esd.h
+32c3c08d8a0625d2250a35f07741c225  usr/lib/arm-linux-gnueabihf/libesd.a
+82b9ebf587ce394c3127cea5e842586e  usr/lib/arm-linux-gnueabihf/pkgconfig/esound.pc
+178d9b7ceca02521ab610b5589643389  usr/share/aclocal/esd.m4
+287bfcb0b1369528195580af795867f4  usr/share/man/man1/esd-config.1.gz

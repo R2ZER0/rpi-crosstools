@@ -1,0 +1,5 @@
+/opt/kioskd/bin/kioskd
+/opt/kioskd/lib/libkiosk.so
+/opt/kioskd/lib/libprop_generic.so
+/opt/kioskd/lib/libprop_text.so
+/opt/kioskd/lib/libprop_image.so

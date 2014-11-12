@@ -1,0 +1,2 @@
+#!/bin/bash
+exec x-run /bin/bash

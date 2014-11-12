@@ -1,0 +1,5 @@
+/root/kioskd-build/build/CMakeFiles/kiosk.dir
+/root/kioskd-build/build/CMakeFiles/kioskd.dir
+/root/kioskd-build/build/CMakeFiles/prop_generic.dir
+/root/kioskd-build/build/CMakeFiles/prop_image.dir
+/root/kioskd-build/build/CMakeFiles/prop_text.dir
